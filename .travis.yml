@@ -1,1 +1,8 @@
 language: java
+notifications:
+  webhooks:
+    urls:
+      - https://hooks.glipdemo.com/webhook/472276b5-1789-41ef-b1f5-dc2d0ba2fe0f
+    on_success: always # default: always
+    on_failure: always # default: always
+    on_start: always   # default: never
